@@ -120,12 +120,6 @@ a,
 
 
 /* --- Header --- */
-#header {
-    width: 100%;
-    z-index: 99;
-    background-color: #fff;
-}
-
 .mobile-btn {
     display: none;
 }
@@ -443,11 +437,11 @@ a,
 
     .header-nav {
         display: none;
-        position: fixed;
+        position: absolute;
         width: 100vw;
         height: calc(100vh - 80px);
+        top: 80px;
         left: 0;
-        bottom: 0;
         z-index: 99;
         background-image: url('../images/bg-pattern-mobile-nav.svg');
         background-repeat: no-repeat;
@@ -461,8 +455,8 @@ a,
         display: block;
     }
 
-    .fixed {
-        position: fixed;
+    .overflow-hidden {
+        overflow: hidden;
     }
 
     .header-menu {
