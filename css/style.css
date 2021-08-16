@@ -37,7 +37,7 @@ p {
     line-height: 1.7;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-weight: normal;
 }
 
@@ -86,7 +86,7 @@ a,
 }
 
 /* font-family */
-h1, h2, h3 {
+h1, h2 {
     font-family: 'DM Serif Display', serif;
 }
 
@@ -103,7 +103,7 @@ h2 {
     font-size: 5.6rem;
 }
 
-h3 {
+#different h2 {
     font-size: 2.8rem;
 }
 
@@ -216,7 +216,7 @@ a,
     margin-top: 30rem;
 }
 
-#different h1, h3 {
+#different h1, h2 {
     color: var(--VeryDarkViolet);
 }
 
@@ -232,7 +232,7 @@ a,
     padding: 0 3.2rem;
 }
 
-.different-card h3 {
+.different-card h2 {
     margin-top: 3.2rem;
 }
 
@@ -348,10 +348,6 @@ a,
 
     h2 {
         font-size: 4rem;    
-    }
-
-    h3 {
-        font-size: 2.4rem;
     }
 
     /* sections margin */ 
